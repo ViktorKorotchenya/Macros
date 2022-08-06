@@ -1,0 +1,25 @@
+import pyautogui
+import time
+
+x, y = pyautogui.position()
+print(x, y)
+pyautogui.moveTo(898, 1056)
+pyautogui.click()
+time.sleep(0.5)
+pyautogui.moveTo(955, 847)
+pyautogui.click()
+time.sleep(0.5)
+pyautogui.write('HI')
+pyautogui.press('enter')
+pyautogui.write('How are you?')
+pyautogui.press('enter')
+pyautogui.moveTo(1413, 852)
+pyautogui.moveTo(1420, 413)
+time.sleep(0.5)
+pyautogui.click()
+time.sleep(0.5)
+pyautogui.moveTo(1413, 852)
+time.sleep(0.5)
+pyautogui.moveTo(1423, 489)
+pyautogui.click()
+
